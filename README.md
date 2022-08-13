@@ -1,1 +1,0 @@
-# Bandeira do Brasil
