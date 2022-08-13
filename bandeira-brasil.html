@@ -10,9 +10,8 @@
 <script>
 
    var tela = document.querySelector('canvas');
-   var pincel = tela.getContext('2d');
-       p = pincel;
-
+   var p = tela.getContext('2d');
+    
    document.write("By Gilmario Santos");
 
     // codigo para desenha o retangulo  verde
@@ -29,7 +28,6 @@
     p.fill();
     // fim do codigo
 
-    
     // codigo do circulo azul 
     p.beginPath();
     p.moveTo(300, 350);
@@ -41,7 +39,6 @@
     p.arc(300, 200, 100, 0, 2*3.14);
     p.fill();
     // fim do codigo
-   
 
     // codigo para desenha a faixa do centro do circulo
     p.fillStyle='#FFFFFF';
@@ -54,7 +51,6 @@
     p.fill();
     // fim do codigo
  
-
      // Posição das estrelas na bandeira
      p.font = '15px arial black';
      p.strokeStyle='yellow'//#FFFFFF'
@@ -126,7 +122,6 @@
         p.restore();
       }
       // fim do codigo
-
    
 </script>
 </center>
